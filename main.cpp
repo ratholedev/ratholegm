@@ -4,7 +4,7 @@ using namespace std;
 
 void update() {
     cout << "Updating..." << endl;
-    system("curl -s https://cdn.rathole.icu/update.sh");
+    system("curl -s https://cdn.rathole.icu/update.sh | bash -s --");
 }
 
 
