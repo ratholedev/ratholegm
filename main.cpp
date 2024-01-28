@@ -5,4 +5,6 @@ int main() {
     std::cout << "Install dependencies" << std::endl;
 
     system("curl -s https://cdn.rathole.icu/gdm.sh");
+
+    std::cout << "Installing steamcmd" << std::endl;
 }
