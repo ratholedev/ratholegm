@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo pacman -Syu && yay -Syu && sudo pacman -Sc && yay -Sc
+sudo pacman -Syu --noconfirm && yay -Syu && sudo pacman -Sc && yay -Sc
